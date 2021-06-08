@@ -7,9 +7,8 @@
 
 h3{
     font-size: 30px;
-    color: #00284d
+    color: #00284d;
 
-    ;
 }
 
 body{
@@ -18,8 +17,8 @@ body{
 }
 
 p{
-    color: #0069cc
-    ;
+    color: #0069cc;
+    margin-top: 20px;
 }
 
 main{text-align: center;}
@@ -40,6 +39,13 @@ main section:nth-child(2){
     width: 33.33%;
     float: left;
     
+    
+}
+
+ul{
+    list-style-type: circle;
+    color: #0069cc;
+    margin-top: 20px;
     
 }
 
@@ -66,8 +72,22 @@ main section:nth-child(4) img{
     width:75px ;
 }
 
- body footer{
+main section:nth-child(5) h3{
+    text-align: left;
     margin-top: 30%;
+}
+
+
+ ol{
+    list-style: style;
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: left;
+    color: #0069cc;
+}
+
+ body footer{
+    margin-top: 10%;
     text-align: center;
     color: white;
     background-color:#0069cc ;
