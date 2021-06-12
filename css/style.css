@@ -1,13 +1,18 @@
 
  h1 {
     text-align: center;
-    font-size: 40px;
-    color:#00284d ;
+    font-size: 45px;
+    color:red ;
+    margin-top:60px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
 
 h3{
     font-size: 30px;
-    color: #00284d;
+    color:red;
+    margin-top:20px;
+    font-weight: bold;
 
 }
 
@@ -38,6 +43,7 @@ main section:first-child{
 main section:nth-child(2){
     width: 33.33%;
     float: left;
+    
     
     
 }
@@ -71,17 +77,23 @@ main section:nth-child(4){
 main section:nth-child(4) img{
     width:75px ;
 }
+main section:nth-child(5){
+    width: 33.33%;
 
-main section:nth-child(5) h3{
-    text-align: left;
-    margin-top: 30%;
 }
+
+
+main section:nth-child(5) img{
+    width:113px;
+    padding-top: 130px;
+}
+
 
 
  ol{
     list-style: style;
     margin-top: 30px;
-    margin-left: 20px;
+    margin-left: 200px;
     text-align: left;
     color: #0069cc;
 }
@@ -91,4 +103,5 @@ main section:nth-child(5) h3{
     text-align: center;
     color: white;
     background-color:#0069cc ;
+    font-weight: bold;
 }
